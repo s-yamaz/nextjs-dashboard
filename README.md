@@ -1,10 +1,5 @@
-# Node.js template
+## Next.js App Router Course - Starter
 
-This is a Node.js project.
+This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-## Resources
-
-- [CodeSandbox — Docs](https://codesandbox.io/docs/learn)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
