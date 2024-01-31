@@ -8,7 +8,7 @@ import { redirect } from 'next/navigation';
 const FormSchema = z.object({
   id: z.string(),
   customerId: z.string({
-    invalid_type_error: 'Select a customer',
+    invalid_type_error: 'Please select a customer',
   }),
   amount: z.coerce.number().gt(0, 'Please enter an amount greater then $0.'),
   status: z.enum(['pending', 'paid'], {
@@ -19,9 +19,9 @@ const FormSchema = z.object({
 
 export type State = {
   errors?: {
-    customerId?: string;
-    amount?: string;
-    status?: string;
+    customerId?: string[];
+    amount?: string[];
+    status?: string[];
   };
   message?: string | null;
 }
