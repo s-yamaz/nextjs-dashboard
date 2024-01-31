@@ -1,7 +1,7 @@
 import { NextAuthConfig } from 'next-auth'
 
 export const authConfig = {
-  page: {
+  pages: {
     signIn: '/auth/signin',
   },
   callbacks: {
